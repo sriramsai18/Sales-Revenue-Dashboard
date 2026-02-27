@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 import numpy as np
 import base64
 
-# ─── LOAD PROFILE IMAGE ───────────────────────────────────────────────────────
+# ─── LOAD PROFILE IMAGE ──────────────────────────────────────────────────────
 def img_to_base64(path):
     try:
         with open(path, "rb") as f:
